@@ -1,8 +1,8 @@
-from managers.ShipManager import ShipManager
-from models.CargoShip import CargoShip
-from models.CruiseShip import CruiseShip
-from models.Tanker import Tanker
-from models.Warship import Warship
+from managers.ship_manager import ShipManager
+from models.cargo_ship import CargoShip
+from models.cruise_ship import CruiseShip
+from models.tanker import Tanker
+from models.warship import Warship
 
 if __name__ == "__main__":
     ship_manager = ShipManager()
